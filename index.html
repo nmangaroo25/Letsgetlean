@@ -64,6 +64,7 @@
 
     #about { background: #fff5f2; }
     #workouts { background: #f0fff4; }
+    #pricing { background: #fffbe6; }
     #book { background: #f2f5ff; }
 
     h2 {
@@ -81,9 +82,24 @@
       padding-left: 1.2rem;
     }
 
+    .pricing-box {
+      background: white;
+      border-radius: 10px;
+      padding: 2rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .price {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #ff6f61;
+      margin: 0.5rem 0;
+    }
+
     .book-button {
       display: inline-block;
-      margin-top: 1.5rem;
+      margin-top: 1rem;
       padding: 1rem 2rem;
       font-size: 1.2rem;
       background: #ff6f61;
@@ -123,16 +139,17 @@
 <nav>
   <a href="#about">About</a>
   <a href="#workouts">Workouts</a>
+  <a href="#pricing">Pricing</a>
   <a href="#book">Book</a>
 </nav>
 
 <section id="about">
   <h2>About Let’s Get Lean</h2>
   <p>
-    Let’s Get Lean is about making fitness simple, welcoming, and stress-free.
+    Let’s Get Lean makes fitness simple, welcoming, and stress-free.
   </p>
   <p>
-    Our sessions are designed for all levels. You choose the time. You choose the pace.
+    No pressure. No confusion. Just movement that works for you.
   </p>
 </section>
 
@@ -146,10 +163,41 @@
   </ul>
 </section>
 
+<section id="pricing">
+  <h2>Pricing</h2>
+
+  <div class="pricing-box">
+    <h3>Single Session (30 Minutes)</h3>
+    <p class="price">$50</p>
+    <p>Perfect if you want to try a session or need flexibility.</p>
+    <a class="book-button" href="https://calendly.com/letsgetlean2016/30min" target="_blank">
+      Book This Session
+    </a>
+  </div>
+
+  <div class="pricing-box">
+    <h3>5-Session Package</h3>
+    <p class="price">$225</p>
+    <p>Save money and stay consistent with a short program.</p>
+    <a class="book-button" href="https://calendly.com/letsgetlean2016/30min" target="_blank">
+      Book Your First Session
+    </a>
+  </div>
+
+  <div class="pricing-box">
+    <h3>10-Session Package</h3>
+    <p class="price">$400</p>
+    <p>Best value for long-term results and accountability.</p>
+    <a class="book-button" href="https://calendly.com/letsgetlean2016/30min" target="_blank">
+      Book Your First Session
+    </a>
+  </div>
+</section>
+
 <section id="book">
   <h2>Book a Session</h2>
   <p>
-    Booking is easy. Click the button below and choose a time that works for you.
+    Click below to choose a time that works for you.
   </p>
 
   <a
